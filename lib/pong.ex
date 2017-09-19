@@ -1,9 +1,4 @@
 defmodule Pingpong.Pong do
-  def loop({:start, ping_pid}) do
-    send ping_pid, {self(), "pong"}
-    loop()
-  end
-
   def loop() do
     receive do
       {sender_pid, message} ->

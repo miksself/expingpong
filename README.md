@@ -1,6 +1,6 @@
 # Pingpong
 
-**TODO: Add description**
+** ping pong between two processes **
 
 ## Installation
 
